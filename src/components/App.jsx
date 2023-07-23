@@ -6,7 +6,7 @@ var userIsRegistered = false;
 export default function App() {
   return (
     <div className='container'>
-      <Form />
+      <Form isLogin={userIsRegistered} />
     </div>
   );
 }
